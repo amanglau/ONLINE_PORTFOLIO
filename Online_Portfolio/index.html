@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aman Srivastava | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,7 +17,9 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#achievements">Achievements</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#feedback">Feedback</a></li>
       </ul>
+      <button id="darkModeToggle">🌙</button>
     </nav>
   </header>
 
@@ -27,39 +30,50 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm a passionate developer with strong expertise in SQL and data-driven development. I enjoy working with relational databases, writing optimized queries, and building backend systems that handle data efficiently. My focus is on turning complex datasets into reliable, scalable solutions. Whether it's designing schemas, managing data workflows, or writing clean, performance-focused SQL, I bring precision and problem-solving to every project.</p>
+    <p>I'm a passionate and detail-oriented developer with a strong foundation in SQL, relational databases, and data-driven application development. I take pride in designing efficient database schemas, writing optimized queries, and implementing scalable backend architectures. I enjoy transforming raw data into meaningful insights, building robust data pipelines, and contributing to high-performance systems that support real-world applications. My goal is to create clean, maintainable, and efficient solutions that solve complex problems through the power of structured data.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <p><strong>1. Finance Management System (JOVAC)</strong> – A comprehensive software solution developed using C++, SQL Server, and Visual Studio.</p>
-    <p><strong>2. E-commerce Website</strong> – Built a responsive online shopping site with product listings, add-to-cart functionality, and modern UI using HTML, CSS, and JavaScript.</p>
+    <p><strong>1. Finance Management System (JOVAC)</strong> – Developed using C++, SQL Server, and Visual Studio.</p>
+    <p><strong>2. E-commerce Website</strong> – Built using HTML, CSS, JavaScript.</p>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
-    <p>•Programming Languages: Java , Python , C <br>• Web Development: HTML, CSS, JavaScript <br>• Git & Version Control</p>
+    <p>Java, Python,C</p>
+    <p> HTML, CSS, JavaScript</p>  
+    <p>Git & GitHub</p>
   </section>
 
   <section id="education">
     <h2>Education</h2>
-    <p>10th<br>Springer Public School , 2020</p>
-    <p>12th <br>Springer Public School , 2022</p>
-    <p>Bachelor of Technology in Computer Science<br>GLA University, 2022–2026</p>
+    <p>Springer Public School – 10th (2020)</p>
+    <p>Springer Public School – 12th (2022)</p>
+    <p>GLA University – B.Tech in CSE (2022–2026)</p>
   </section>
 
   <section id="achievements">
     <h2>Achievements</h2>
-    <p>•First Place, District Chess Tournament, Gorakhpur Mahotsav Organization, showcasing strategic planning and
-focus. <br>•Received a Certificate of Participation in Parliamentary Debate from GLA University, showcasing strong public
-speaking, critical thinking, and teamwork skills</p>
+    <p>• First Place, District Chess Tournament – Gorakhpur Mahotsav</p>
+    <p>• Certificate of Participation – Parliamentary Debate, GLA University</p>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: amansrivastava8318@gmail.com</p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/aman20n/">Your Profile</a></p>
-    <p>Phone no. - 8881946067</p>
+    <p>Phone: 8881946067</p>
+  </section>
+
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <textarea id="message" placeholder="Your Feedback" rows="4" required></textarea>
+      <button type="submit">Submit Feedback</button>
+      <p id="feedbackStatus"></p>
+    </form>
   </section>
 
   <footer>
